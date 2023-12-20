@@ -12,7 +12,7 @@ function LogOutModal({ open, onClose }: logoutUserModalPropsTypes) {
     window.location.reload();
   };
   return (
-    <CustomModal title="Delete User" isOpen={open}>
+    <CustomModal title="Logout User" isOpen={open}>
       <div className="px-3 py-2">
         <p>
           The action you are going to perform is irreversible. Please confirm!
