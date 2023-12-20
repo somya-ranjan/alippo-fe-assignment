@@ -6,6 +6,7 @@ export const guestRoutes = [
     name: "SignIn",
     exact: true,
     component: React.lazy(() => import("../../view/auth/SignIn")),
+    // component: React.lazy(() => import("../../components/loader/Loader")),
   },
 
   {
