@@ -1,0 +1,24 @@
+.table_wrapper {
+  // max-height: 400px;
+  overflow-y: auto;
+}
+.top_bar {
+  input {
+    width: 40vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .top_bar {
+    input {
+      width: 60vw;
+    }
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .top_bar {
+    input {
+      width: 50vw;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.cp {
+  cursor: pointer;
+}
+
+.skeleton {
+  height: 30px;
+  border-radius: 5px;
+  background-color: var(--skeleton-bg-1);
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: var(--skeleton-bg-1);
+  }
+  100% {
+    background-color: var(--skeleton-bg-2);
+  }
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}

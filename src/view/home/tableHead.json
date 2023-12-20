@@ -1,0 +1,27 @@
+[
+  {
+    "_id": "slNo",
+    "label": "Sl No"
+  },
+  {
+    "_id": "name",
+    "label": "Name"
+  },
+  {
+    "_id": "city",
+    "label": "City"
+  },
+
+  {
+    "_id": "age",
+    "label": "Age"
+  },
+  {
+    "_id": "pinCode",
+    "label": "Pin Code"
+  },
+  {
+    "_id": "actions",
+    "label": "Action"
+  }
+]
